@@ -5,8 +5,6 @@ using UnityEngine;
 public class Movement: MonoBehaviour
 {
     public float speed = 5;
-    public static bool lastKeyUp;
-
     private Rigidbody rb;
     private void Start()
     {
@@ -37,4 +35,5 @@ public class Movement: MonoBehaviour
         }
 
     }
+   
 }
