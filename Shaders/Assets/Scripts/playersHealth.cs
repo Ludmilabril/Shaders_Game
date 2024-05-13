@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class playersHealth : MonoBehaviour
 {
@@ -57,6 +58,7 @@ public class playersHealth : MonoBehaviour
 
         if (ActualHealth <= 0)
         {
+            SceneManager.LoadScene("GameOver");
             Destroy(gameObject);
         }
 
