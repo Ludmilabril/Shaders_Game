@@ -32,6 +32,11 @@ public class playersHealth : MonoBehaviour
         {
             Damage(1);
         }
+        if (collision.gameObject.tag == "Orbe")
+        {
+            SceneManager.LoadScene("Victory");
+        }
+
     }
     private void OnTriggerEnter(Collider other)
     {
