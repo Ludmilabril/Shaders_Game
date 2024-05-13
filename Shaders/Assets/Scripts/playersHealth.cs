@@ -9,6 +9,7 @@ public class playersHealth : MonoBehaviour
     public int ActualHealth;
     public int MaxHealth;
     public UnityEvent<int> ChangeHealth;
+    public GameObject Poti;
 
     void Start()
     {
@@ -21,6 +22,22 @@ public class playersHealth : MonoBehaviour
         if(collision.gameObject.tag == "Lava")
         {
             Damage(1);
+        }
+        if (collision.gameObject.tag == "Plant")
+        {
+            Damage(1);
+        }
+        if (collision.gameObject.tag == "Cristals")
+        {
+            Damage(1);
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "potion")
+        {
+            recoverHealth(1);
+            Destroy(Poti);
         }
     }
     void Damage(int AmountDamage)

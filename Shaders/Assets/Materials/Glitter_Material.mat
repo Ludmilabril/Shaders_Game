@@ -72,7 +72,7 @@ Material:
     - _speedGlitter: 0.0002
     m_Colors:
     - _Color: {r: 1.0390248, g: 0.83339846, b: 1.3284247, a: 0}
-    - _Fresnel_Color: {r: 0.0048948335, g: 0.0014905317, b: 0.0117034335, a: 1}
+    - _Fresnel_Color: {r: 0.006904039, g: 0.023584902, b: 0.0005562476, a: 1}
     - _Noise_Scale: {r: 9.82, g: 12.7, b: 0, a: 0}
     - _tiling: {r: -0.88, g: 48.04, b: 0, a: 0}
   m_BuildTextureStacks: []

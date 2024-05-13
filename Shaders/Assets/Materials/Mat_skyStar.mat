@@ -119,16 +119,16 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Stars_Scale: 313.9
+    - _Stars_Scale: 10000
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _speed: 0.002
-    - _starsPower: 165.56
+    - _speed: 0.00002
+    - _starsPower: 10000
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 16.94838, g: 15.617354, b: 11.180606, a: 1}
-    - _Color_2: {r: 19.468573, g: 14.881737, b: 1.019297, a: 1}
+    - _Color_2: {r: 1.3191175, g: 1.0192968, b: 19.468573, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

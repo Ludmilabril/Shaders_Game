@@ -28,7 +28,7 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -101,7 +101,7 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _Amount: 0.0001
+    - _Amount: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -111,17 +111,17 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DisolvePower: 7.46
+    - _DisolvePower: 7.2
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Frequency: 2.28
+    - _Frequency: 8.47
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _MaskPower: 0.44
+    - _MaskPower: 0.88
     - _Metallic: 0
-    - _Noise: 7
+    - _Noise: 5.67
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
@@ -136,10 +136,10 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _distance: 1
+    - _distance: 1.74
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1.9272298, g: 6.9326534, b: 0.8829323, a: 0.7882353}
+    - _Color: {r: 0.1513091, g: 3.1217942, b: 3.2111175, a: 0.6666667}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _NoiseSpeed: {r: 0, g: -0.09, b: 0, a: 0}
     - _NoiseTiling: {r: 71.4, g: 0.26, b: 0, a: 0}
